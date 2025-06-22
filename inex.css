@@ -1,0 +1,10 @@
+  body {
+      background: linear-gradient(to right, #e0f7fa, #fff3e0);
+    }
+    .card-wrapper:hover .next-btn {
+      opacity: 1;
+    }
+    .next-btn {
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
